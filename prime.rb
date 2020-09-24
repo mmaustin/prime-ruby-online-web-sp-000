@@ -17,7 +17,9 @@ prime?(11)
 
 
 def prime?(num)
-  return true if num < 2
+  if num < 2
+    return false
+  end
   (2..(num - 1)).each do |n|
     return false if num % n == 0
   end

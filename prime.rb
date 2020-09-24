@@ -1,4 +1,4 @@
-=begin# Add  code here!
+=begin
 def prime?(num)
   if num < 2
     return false

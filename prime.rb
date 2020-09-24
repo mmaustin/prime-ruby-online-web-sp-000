@@ -6,4 +6,4 @@ def prime?(num)
   true
 end
 
-prime?(7)
+prime?(11)

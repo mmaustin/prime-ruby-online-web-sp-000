@@ -1,14 +1,14 @@
 # Add  code here!
 def prime?(num)
   if num < 2
-    false
+    return false
   elsif
   (2..(num - 1)).each do |n|
      num % n == 0
-      false
+      return false
     end
   else
-      true
+      return true
     end
 end
 
